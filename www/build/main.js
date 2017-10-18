@@ -170,7 +170,7 @@ var HomePage = (function () {
 }());
 HomePage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-home',template:/*ion-inline-start:"/usr/local/var/www/hypehel/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title style="text-align: center">THE HYPE OF HELSINKI</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <div class="box">\n    <h2>Discover Helsinki soon like never before.</h2>\n  </div>\n</ion-content>\n'/*ion-inline-end:"/usr/local/var/www/hypehel/src/pages/home/home.html"*/
+        selector: 'page-home',template:/*ion-inline-start:"/usr/local/var/www/hypehel/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar style="color: red; background-color: red;">\n    <ion-title style="text-align: center">THE HYPE OF HELSINKI</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <div class="box">\n    <h2>Discover Helsinki soon like never before.</h2>\n  </div>\n</ion-content>\n'/*ion-inline-end:"/usr/local/var/www/hypehel/src/pages/home/home.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]])
 ], HomePage);
