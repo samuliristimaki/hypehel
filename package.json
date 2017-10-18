@@ -5,7 +5,7 @@
   "homepage": "http://hypehel.com/",
   "main": "index.js",
   "scripts": {
-    "start": "ionic-app-scripts serve",
+    "start": "node index.js",
     "test": "node test.js",
     "clean": "ionic-app-scripts clean",
     "build": "ionic-app-scripts build",
@@ -14,7 +14,6 @@
     "ionic:serve": "ionic-app-scripts serve"
   },
   "dependencies": {
-    "ejs": "2.5.6",
     "express": "4.15.2",
     "@angular/common": "4.4.3",
     "@angular/compiler": "4.4.3",
