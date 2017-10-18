@@ -170,7 +170,7 @@ var HomePage = (function () {
 }());
 HomePage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-home',template:/*ion-inline-start:"/usr/local/var/www/hypehel/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar style="color: red; background-color: red;">\n    <ion-title style="text-align: center">THE HYPE OF HELSINKI</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <div class="box">\n    <h2>Discover Helsinki soon like never before.</h2>\n  </div>\n</ion-content>\n'/*ion-inline-end:"/usr/local/var/www/hypehel/src/pages/home/home.html"*/
+        selector: 'page-home',template:/*ion-inline-start:"/usr/local/var/www/hypehel/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title style="text-align: center">THE HYPE OF HELSINKI</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <div class="box">\n    <h2>Discover Helsinki soon like never before.</h2>\n  </div>\n</ion-content>\n'/*ion-inline-end:"/usr/local/var/www/hypehel/src/pages/home/home.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]])
 ], HomePage);
@@ -186,8 +186,11 @@ HomePage = __decorate([
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(197);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(215);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_core__ = __webpack_require__(0);
 
 
+
+Object(__WEBPACK_IMPORTED_MODULE_2__angular_core__["_21" /* enableProdMode */])();
 Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
 //# sourceMappingURL=main.js.map
 
@@ -232,7 +235,7 @@ var AppModule = (function () {
 AppModule = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["L" /* NgModule */])({
         declarations: [
-            __WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */],
+            __WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* HypeHEL */],
             __WEBPACK_IMPORTED_MODULE_4__pages_about_about__["a" /* AboutPage */],
             __WEBPACK_IMPORTED_MODULE_5__pages_contact_contact__["a" /* ContactPage */],
             __WEBPACK_IMPORTED_MODULE_6__pages_home_home__["a" /* HomePage */],
@@ -240,13 +243,13 @@ AppModule = __decorate([
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__["a" /* BrowserModule */],
-            __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */], {}, {
+            __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* HypeHEL */], {}, {
                 links: []
             })
         ],
         bootstrap: [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["a" /* IonicApp */]],
         entryComponents: [
-            __WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */],
+            __WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* HypeHEL */],
             __WEBPACK_IMPORTED_MODULE_4__pages_about_about__["a" /* AboutPage */],
             __WEBPACK_IMPORTED_MODULE_5__pages_contact_contact__["a" /* ContactPage */],
             __WEBPACK_IMPORTED_MODULE_6__pages_home_home__["a" /* HomePage */],
@@ -268,7 +271,7 @@ AppModule = __decorate([
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HypeHEL; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(33);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(188);
@@ -288,8 +291,8 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-var MyApp = (function () {
-    function MyApp(platform, statusBar, splashScreen) {
+var HypeHEL = (function () {
+    function HypeHEL(platform, statusBar, splashScreen) {
         this.rootPage = __WEBPACK_IMPORTED_MODULE_4__pages_tabs_tabs__["a" /* TabsPage */];
         platform.ready().then(function () {
             // Okay, so the platform is ready and our plugins are available.
@@ -298,13 +301,13 @@ var MyApp = (function () {
             splashScreen.hide();
         });
     }
-    return MyApp;
+    return HypeHEL;
 }());
-MyApp = __decorate([
+HypeHEL = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"/usr/local/var/www/hypehel/src/app/app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"/usr/local/var/www/hypehel/src/app/app.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
-], MyApp);
+], HypeHEL);
 
 //# sourceMappingURL=app.component.js.map
 
