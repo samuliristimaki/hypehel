@@ -1,6 +1,6 @@
 <ion-header>
   <ion-navbar>
-    <ion-title style="text-align: center">THE HYPE OF HELSINKI</ion-title>
+    <ion-title style="text-align: center">THE HYPE OF HKI</ion-title>
   </ion-navbar>
 </ion-header>
 
@@ -8,4 +8,20 @@
   <div class="box">
     <h2>Discover Helsinki soon like never before.</h2>
   </div>
+  <ul class="u-listReset article-grid">
+  <li class="u-marginBottom" *ngFor="let article of articles">
+    <!--pre>{{article | json}}</pre-->
+    <md-card class="article-card">
+      <md-card-header>
+        <md-card-title><strong>{{ article.fields.heading }}</strong></md-card-title>
+        <md-card-subtitle>{{ article.fields.body }}</md-card-subtitle>
+        <md-card-subtitle><a md-button>{{ article.fields.category.fields.name }}</a></md-card-subtitle>
+      </md-card-header>
+      <img md-card-image src="{{ article.fields.hero.fields.file.url }}">
+      <md-card-actions class="u-marginTopAuto">
+        <!--a md-button [routerLink]="['/products', product.fields.slug]">View details</a-->
+      </md-card-actions>
+    </md-card>
+  </li>
+</ul>
 </ion-content>

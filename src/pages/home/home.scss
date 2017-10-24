@@ -1,8 +1,37 @@
 page-home {
+
   ion-content {
-    background-image: linear-gradient(180deg,transparent,rgba(1,1,1,.5));
+    /* background-image: linear-gradient(180deg,transparent,rgba(1,1,1,.5)); */
   }
+
   h2 {
     text-align: center;
   }
+
+  .article-grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 0;
+    list-style-type: none;
+    max-width: 300px;
+    img {
+      margin: auto;
+    }
+  }
+
+  .article-grid > * {
+    flex: 1 0 5em;
+    margin: 0.5em;
+
+    min-width: 20em;
+    max-width: 37.5em;
+  }
+
+  .article-card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
 }

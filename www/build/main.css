@@ -25513,10 +25513,50 @@ ion-navbar.toolbar {
 }
 
 page-home ion-content {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(1, 1, 1, 0.5)));
-  background-image: linear-gradient(180deg, transparent, rgba(1, 1, 1, 0.5));
+  /* background-image: linear-gradient(180deg,transparent,rgba(1,1,1,.5)); */
 }
 
 page-home h2 {
   text-align: center;
+}
+
+page-home .article-grid {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: auto;
+  padding: 0;
+  list-style-type: none;
+  max-width: 300px;
+}
+
+page-home .article-grid img {
+  margin: auto;
+}
+
+page-home .article-grid > * {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 0 5em;
+  -ms-flex: 1 0 5em;
+  flex: 1 0 5em;
+  margin: 0.5em;
+  min-width: 20em;
+  max-width: 37.5em;
+}
+
+page-home .article-card {
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
