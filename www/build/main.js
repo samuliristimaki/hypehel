@@ -205,7 +205,6 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-// change these to include your own settings
 var DEFAULT_CONFIG = {
     credentials: {
         space: '6koht02lkn17',
