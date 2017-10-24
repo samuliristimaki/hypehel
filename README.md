@@ -1,6 +1,4 @@
-# HypeHEL
-
-[hypepel.com](http://www.hypehel.com)
+# [HypeHEL](http://www.hypehel.com)
 
 ## Development Stack
 
