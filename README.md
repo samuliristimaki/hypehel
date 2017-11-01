@@ -1,8 +1,11 @@
 # Ionic Boilerplate
 
 A simple ionic boilerplate for starting new projects.
+
 This boilerplate will follow the best practices for fast ionic development.
-1 Nov 2017, Helsinki, Finland
+
+*1 Nov 2017, Helsinki, Finland*
+
 ![speedtests](https://raw.githubusercontent.com/samuliristimaki/ionic-boilerplate/master/docs/performance.jpg)
 
 ## Features
