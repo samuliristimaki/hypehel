@@ -3,13 +3,12 @@ import { createClient, Entry, Space, ContentfulClientApi } from 'contentful';
 
 const DEFAULT_CONFIG = {
   credentials: {
-    space: '6koht02lkn17',
-    accessToken: 'a60cd1289ddc66aa2fb42e5ad44fcd6c7a779850ffc45d74adda82d4e90a9cf7',
+    space: 'd7rqx6i6klhs',
+    accessToken: '534102b2442627fa42fcc7a572d4a590ddc2e0eacc14a2e8e79e0acd34dd481c',
   },
 
   contentTypeIds: {
-    article: 'article',
-    category: 'category'
+    article: 'article'
   }
 }
 
@@ -48,7 +47,7 @@ export class ContentfulService {
       })
   }
 
-  // fetch products
+  // fetch articles
   getArticles(query?: object): Promise<Entry<any>[]> {
     return this.cdaClient.getEntries(Object.assign({
       content_type: DEFAULT_CONFIG.contentTypeIds.article
@@ -56,19 +55,11 @@ export class ContentfulService {
     .then(res => res.items);
   }
 
-  // fetch products with a given slug
+  // fetch articles with a given slug
   // and return one of them
   getArticle(slug: string): Promise<Entry<any>> {
     return this.getArticles({ 'fields.slug': slug })
     .then(items => items[0])
-  }
-
-  // fetch categories
-  getCategories(): Promise<Entry<any>[]> {
-    return this.cdaClient.getEntries({
-      content_type: 'category'
-    })
-    .then(res => res.items);
   }
 
   // return a custom config if available

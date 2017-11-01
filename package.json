@@ -1,17 +1,16 @@
 {
-  "name": "HypeHEL",
+  "name": "IonicApp",
   "version": "0.0.1",
-  "description": "Discover Helsinki like never before.",
-  "homepage": "http://hypehel.com/",
+  "description": "Ionic boilerplate",
+  "homepage": "",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "node test.js",
     "clean": "ionic-app-scripts clean",
     "build": "ionic-app-scripts build",
     "lint": "ionic-app-scripts lint",
-    "ionic:build": "ionic-app-scripts build --prod --release",
-    "ionic:serve": "ionic-app-scripts serve"
+    "serve": "ionic-app-scripts serve",
+    "prod": "ionic-app-scripts build --prod --release"
   },
   "dependencies": {
     "@angular/animations": "4.4.3",
@@ -32,10 +31,10 @@
     "compression": "^1.7.1",
     "contentful": "^4.5.0",
     "cordova-ios": "4.5.2",
-    "cordova-plugin-device": "^1.1.4",
-    "cordova-plugin-ionic-webview": "^1.1.15",
+    "cordova-plugin-device": "^1.1.6",
+    "cordova-plugin-ionic-webview": "^1.1.16",
     "cordova-plugin-splashscreen": "^4.0.3",
-    "cordova-plugin-whitelist": "^1.3.1",
+    "cordova-plugin-whitelist": "^1.3.2",
     "express": "4.15.2",
     "ionic-angular": "3.7.1",
     "ionic-plugin-keyboard": "^2.2.1",
@@ -50,13 +49,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/samuliri/hypehel"
+    "url": "https://github.com/samuliristimaki/ionic-boilerplate"
   },
   "keywords": [
     "node",
     "heroku",
     "express",
-    "hypehel"
+    "ionic"
   ],
   "license": "MIT",
   "cordova": {

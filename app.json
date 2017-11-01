@@ -1,8 +1,8 @@
 {
-  "name": "hypehel",
-  "description": "Node.js app",
-  "repository": "https://github.com/samuliri/hypehel",
+  "name": "IonicApp",
+  "description": "Ionic boilerplate",
+  "repository": "https://github.com/samuliristimaki/ionic-boilerplate",
   "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/master/public/node.svg",
-  "keywords": ["hypehel", "node", "express", "heroku"],
+  "keywords": ["ionic", "node", "express", "heroku"],
   "image": "heroku/nodejs"
 }

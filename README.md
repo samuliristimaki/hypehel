@@ -1,29 +1,43 @@
-# [HypeHEL](http://www.hypehel.com)
+# Ionic Boilerplate
 
-## Development Stack
+A simple ionic boilerplate for starting new projects. This boilerplate will follow the best practices for angular and ionic development.
 
-- [Node](https://nodejs.org/)
-- [Angular](https://angular.io)
-- [Ionic](http://ionicframework.com/)
+## Features
+
+- [Node.js](https://nodejs.org/)
+- [Angular 4](https://angular.io)
+- [Ionic 3](http://ionicframework.com/)
 - [Contentful](https://www.contentful.com/)
+- [Heroku](https://www.heroku.com/)
 
-## Running Locally
-
-Make sure you have [Node.js](http://nodejs.org/) and the [Heroku CLI](https://cli.heroku.com/) installed.
+## Quick Start
 
 ```sh
+# Make sure you have Node version >= 6.X and NPM >= 3
 $ npm install
-$ npm start
+$ npm run serve
 ```
 
-Your app should now be running on [localhost:5000](http://localhost:5000/).
+### NPM scripts commands
 
-## Ionic CLI:
+| Task              | Description                                            |
+|-------------------|--------------------------------------------------------|
+| `start`           | Run node index.js                                      |
+| `clean`           | Run ionic clean                                        |
+| `build`           | Run ionic basic build                                  |
+| `lint`            | Run ionic tslint                                       |
+| `serve`           | Run ionic serve                                        |
+| `prod`            | Full production build                                  |
+
+## Ionic CLI
 
 ```bash
 $ sudo npm install -g ionic cordova
-```
-
-```bash
+# iOS build
 $ ionic cordova run ios
 ```
+
+## License
+
+Copyright (c) 2017 Samuli Ristimäki
+Source code is open source and released under the MIT license.

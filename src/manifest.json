@@ -1,6 +1,6 @@
 {
-  "name": "The Hype of Helsinki",
-  "short_name": "HypeHEL",
+  "name": "Ionic boilerplate",
+  "short_name": "IonicApp",
   "start_url": "index.html",
   "display": "standalone",
   "icons": [{
