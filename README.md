@@ -2,8 +2,8 @@
 
 ## Development Stack
 
-- [Node.js](https://nodejs.org/)
-- [AngularJS](https://angularjs.org/)
+- [Node](https://nodejs.org/)
+- [Angular](https://angular.io)
 - [Ionic](http://ionicframework.com/)
 - [Contentful](https://www.contentful.com/)
 
@@ -22,14 +22,8 @@ Your app should now be running on [localhost:5000](http://localhost:5000/).
 
 ```bash
 $ sudo npm install -g ionic cordova
-$ ionic start
 ```
 
 ```bash
-$ ionic cordova platform add ios
 $ ionic cordova run ios
 ```
-
-## Deploying to Heroku
-
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
