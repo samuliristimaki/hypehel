@@ -6,7 +6,7 @@ This boilerplate will follow the best practices for fast ionic development.
 
 *1 Nov 2017, Helsinki, Finland*
 
-![speedtests](https://raw.githubusercontent.com/samuliristimaki/ionic-boilerplate/master/docs/performance.jpg)
+![speedtests](https://raw.githubusercontent.com/samuliristimaki/ionic-boilerplate/master/docs/perf.jpg)
 
 ## Features
 
@@ -19,7 +19,7 @@ This boilerplate will follow the best practices for fast ionic development.
 ## Quick Start
 
 ```sh
-# Make sure you have Node version >= 6.X and NPM >= 3
+# Make sure you have latest Node and NPM versions
 $ npm install
 $ npm run serve
 ```
@@ -38,9 +38,9 @@ $ npm run serve
 ## Ionic CLI
 
 ```bash
+# iOS build example
 $ sudo npm install -g ionic cordova
 $ ionic cordova platform add ios
-# iOS build
 $ ionic cordova run ios
 ```
 
