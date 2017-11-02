@@ -39,6 +39,7 @@ $ npm run serve
 
 ```bash
 $ sudo npm install -g ionic cordova
+$ ionic cordova platform add ios
 # iOS build
 $ ionic cordova run ios
 ```
