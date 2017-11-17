@@ -11,7 +11,7 @@ This boilerplate will follow the best practices for fast ionic development.
 ## Features
 
 - [Node.js](https://nodejs.org/)
-- [Angular 4](https://angular.io)
+- [Angular 5](https://angular.io)
 - [Ionic 3](http://ionicframework.com/)
 - [Contentful](https://www.contentful.com/)
 - [Heroku](https://www.heroku.com/)

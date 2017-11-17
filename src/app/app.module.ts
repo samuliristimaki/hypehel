@@ -1,7 +1,7 @@
 import { NgModule, ErrorHandler } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
-import { MdCardModule } from '@angular/material';
+import { MatCardModule } from '@angular/material';
 import { CoolApp } from './app.component';
 
 import { AboutPage } from '../pages/about/about';
@@ -25,7 +25,7 @@ import { ContentfulService } from '../services/contentful.service';
   imports: [
     BrowserModule,
     IonicModule.forRoot(CoolApp),
-    MdCardModule
+    MatCardModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
