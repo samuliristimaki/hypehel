@@ -4,15 +4,16 @@ A simple ionic boilerplate for starting new projects.
 
 This boilerplate will follow the best practices for fast ionic development.
 
-*1 Nov 2017, Helsinki, Finland*
-
 ![speedtests](https://raw.githubusercontent.com/samuliristimaki/ionic-boilerplate/master/docs/perf.jpg)
+
+*1 Nov 2017, Helsinki, Finland*
 
 ## Features
 
-- [Node.js](https://nodejs.org/)
-- [Angular 5](https://angular.io)
+### Frantic Stack
 - [Ionic 3](http://ionicframework.com/)
+- [Angular 5](https://angular.io)
+- [Node.js](https://nodejs.org/)
 - [Contentful](https://www.contentful.com/)
 - [Heroku](https://www.heroku.com/)
 
@@ -24,7 +25,7 @@ $ npm install
 $ npm run serve
 ```
 
-### NPM scripts commands
+### NPM Scripts Commands
 
 | Task              | Description                                            |
 |-------------------|--------------------------------------------------------|
