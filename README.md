@@ -4,13 +4,12 @@ A simple ionic boilerplate for starting new projects.
 
 This boilerplate will follow the best practices for fast ionic development.
 
-![speedtests](https://raw.githubusercontent.com/samuliristimaki/ionic-boilerplate/master/docs/perf.jpg)
+<img src="https://raw.githubusercontent.com/samuliristimaki/ionic-boilerplate/master/docs/perf.jpg" width="50%">
 
 *1 Nov 2017, Helsinki, Finland*
 
 ## Features
 
-### Frantic Stack
 - [Ionic 3](http://ionicframework.com/)
 - [Angular 5](https://angular.io)
 - [Node.js](https://nodejs.org/)
@@ -45,7 +44,30 @@ $ ionic cordova platform add ios
 $ ionic cordova run ios
 ```
 
+## Project structure
+
+```
+.
+├── docs                # Project documentation
+├── resources           # Cordova resources
+├── src                 # Uncompiled source code
+│   ├── app
+│   ├── assets
+│   ├── pages
+│   ├── services
+│   ├── theme
+│   ├── index.html      # Main entry point
+│   └── ...
+├── www                 # Compiled files
+│   ├── assets
+│   ├── build
+│   |   ├── main.js     # Concatenated app file
+│   |   └── ...
+│   └── ...
+└── ...                 # Config files etc.
+```
+
 ## License
 
-Copyright (c) 2017 Samuli Ristimäki
+Copyright (c) 2017 Samuli Ristimäki [@frc](https://github.com/frc)
 Source code is open source and released under the MIT license.

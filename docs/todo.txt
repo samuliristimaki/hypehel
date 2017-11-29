@@ -1,2 +1,0 @@
-TODO:
-- Update to Angular 5 when Ionic support available
