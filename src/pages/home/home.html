@@ -10,13 +10,13 @@
   <ul class="u-listReset article-grid">
   <li class="u-marginBottom" *ngFor="let article of articles">
     <!--pre>{{article | json}}</pre-->
-    <mat-card class="article-card">
-      <mat-card-header>
-        <mat-card-title><strong>{{ article.fields.heading }}</strong></mat-card-title>
-        <mat-card-subtitle>{{ article.fields.body }}</mat-card-subtitle>
-      </mat-card-header>
-      <img mat-card-image src="{{ article.fields.image.fields.file.url }}">
-    </mat-card>
+    <ion-card class="article-card">
+      <ion-card-header>
+        <ion-card-title><strong>{{ article.fields.heading }}</strong></ion-card-title>
+      </ion-card-header>
+      <ion-card-content>{{ article.fields.body }}</ion-card-content>
+      <img src="{{ article.fields.image.fields.file.url }}">
+    </ion-card>
   </li>
 </ul>
 </ion-content>
