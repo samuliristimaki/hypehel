@@ -6,7 +6,7 @@ This boilerplate will follow the best practices for fast ionic development.
 
 <img src="https://raw.githubusercontent.com/samuliristimaki/ionic-boilerplate/master/docs/perf.jpg" width="50%">
 
-*1 Nov 2017, Helsinki, Finland*
+*13 Dec 2017, Helsinki, Finland*
 
 ## Features
 
