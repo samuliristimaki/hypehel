@@ -4,10 +4,6 @@ A simple ionic boilerplate for starting new projects.
 
 This boilerplate will follow the best practices for fast ionic development.
 
-<img src="https://raw.githubusercontent.com/samuliristimaki/ionic-boilerplate/master/docs/perf.jpg" width="50%">
-
-*13 Dec 2017, Helsinki, Finland*
-
 ## Features
 
 - [Ionic 3](http://ionicframework.com/)
