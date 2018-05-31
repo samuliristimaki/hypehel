@@ -65,5 +65,6 @@ $ ionic cordova run ios
 
 ## License
 
-Copyright (c) 2017 Samuli Ristimäki [@frc](https://github.com/frc)
+Copyright (c) 2018 Samuli Ristimäki [@frc](https://github.com/frc)
+
 Source code is open source and released under the MIT license.
